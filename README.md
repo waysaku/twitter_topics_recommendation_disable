@@ -1,0 +1,7 @@
+# twitter_topics_recommendation_disable
+Twitterの興味関心の設定を全部オフにするscriptです。  
+ブラウザにコピペして使います。  
+https://twitter.com/settings/your_twitter_data/twitter_interests
+
+タイムラインの「このトピックをフォロー」が出てうざいので少しでも減らせるように設定から興味関心をオフにしたいときに使います。  
+チェックをオンオフするたびにhttpリクエストが実行されるので、画面からポチポチするとすぐにリクエスト上限に引っかかってまともにオフできないので5秒のタイマー実行にしてます。  
